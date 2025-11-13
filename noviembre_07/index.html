@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    
+    </head>
+    <body>
+        <div class="container">
+            <h1 id="titulo">Este es el titulo original</h1>
+            <button onclick="cambio();" class="btn btn-outline-primary">CAMBIAR TITULO</button>
+        </div>
+        <script>
+            function cambio(){
+                document.getElementById('titulo').textContent='este es el nuevo titulo';
+            }
+        </script>
+
+
+
+        
+
+
+
+        <!-- primera forma de cargar un script de javascript en mi html, con un archivo externo-->
+        <script src="assets/js/functions.js"></script>
+
+        <!-- segunda forma de cargar un script de javascript en mi html, directo en el html -->
+        <script>
+            /*
+            acá es donde vamos a escribir nuestro código
+            en javascript
+            */
+
+            let x=4; //declaración + asignación
+            let y; // solo declaración
+            y=17; // asignación
+            const pi=3.14; 
+
+            // console.log() es una instrucción/función para escribir en la consola del navegador
+            //console.log('la suma de '+x+' + '+y+' es:'+suma) // es como print() de otros lenguajes
+            //alert('ESTE ES UN MENSAJE');
+            /*
+            confirm('Vamos a realizar una suma');
+
+            x= parseInt(prompt("ingrese el primer valor:"))  // este es READ
+            y= parseInt(prompt("ingrese el segundo valor:")) // este es READ
+
+            let suma = x+y;  //declaración + asignación
+            */
+            //console.log('La suma de sus numeros es:'+suma);  // PRINT
+
+            console.log('el valor original de x es:'+x)
+            let incremento1=x+1;
+            console.log('el valor incrementado en 1 de x es:'+incremento1)
+            x++;
+            let incremento2= x; 
+            //x++;
+            console.log('el valor incrementado en 1 de x es:'+incremento2)
+            console.log('pero tambien el valor incrementado en 1 de x es:'+x)
+
+        </script>
+
+
+<script>
+if (hora < 12) {
+    console.log("Buenos días");
+} 
+else if( hora >=12   ||    hora < 18 ){
+   // [12-24] || [0-18] en el caso del 'O lógico' no importa la hora, siempre se cumple porque es el rango total de 0-24
+
+   // [12-24] && [0-18] en el caso del 'Y lógico ' solo se cumplen al mismo tiempo las horas desde las 12 ahsta las 18
+
+    console.log("Buenas tardes");
+}
+else {
+    console.log("Buenas noches");
+}
+
+</script>
+
+
+
+    
+
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    
+    </body>
+</html>

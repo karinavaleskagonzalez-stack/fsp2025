@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+  <body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;" data-bs-theme="light">
+        <div class="container-fluid">
+            <a class="navbar-brand grande" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto my-4 mx-5">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Link
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Action</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+
+                 <form class="d-flex " role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+        </nav>
+
+
+    </div>
+
+
+
+    
+    <div class="container bg-primary text-center">
+        <h1>
+            Hola mundo!!
+        </h1>
+    </div>
+
+    <div class="container-md bg-danger">
+        <h1>
+            <span class="border border-top-0 border-dark border-bottom-0" > SPAN</span>
+        </h1>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-1 bg-info">
+                contenido de una columna
+            </div>
+            <div class="col-11 bg-warning">
+                contenido de 11 colunas
+            </div>
+        </div>
+        <div class="row">
+            
+            <div class="col bg-warning">
+                contenido de 10 colunas
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col bg-info me-1 rounded-3 text-end p-3">columna 1</div>
+            <div class="col bg-warning me-1 rounded-3 p-3">columna 2</div>
+            <div class="col  bg-info me-1 rounded-3 p-3">columna 3</div>
+            <div class="col bg-warning rounded-3 p-3">columna 4</div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col"></div>
+            <div class="col-8 mt-3 table-responsive">
+                <h3 class="text-center">tabla de valores</h3>
+                <table class="table table-striped table-dark text-center">
+                        <thead>
+                            <th>columna 1</th>
+                            <th>columna 2</th>
+                            <th>columna 3</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>celda1</td>
+                                <td>celda2</td>
+                                <td>celda3</td>
+                            </tr>
+                            <tr>
+                                <td>celda4</td>
+                                <td>celda5</td>
+                                <td>celda6</td>
+                            </tr>
+                            <tr>
+                                <td>celda7</td>
+                                <td>celda8</td>
+                                <td>celda9</td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+            </div>
+            <div class="col"></div>
+        </div>
+    </div>
+    
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

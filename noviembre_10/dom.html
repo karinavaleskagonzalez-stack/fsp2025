@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mi-id">
+        <p>Lorem</p>
+    </div>
+
+    <p>Lorem 2</p>
+    
+    <div id="mi_contenedor">
+
+    </div>
+
+
+    <script>
+        let nuevoParrafo = document.createElement('p');
+        // Agregar contenido al elemento
+        nuevoParrafo.textContent = 'Este es un nuevo párrafo';
+        // Obtener el nodo padre al que deseas agregar el nuevo elemento
+       let contenedor = document.getElementById('mi_contenedor');
+        // Agregar el nuevo elemento como hijo del nodo padre
+        contenedor.appendChild(nuevoParrafo);
+
+        contenedor.remove()
+
+    </script>
+
+
+</body>
+</html>
